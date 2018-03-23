@@ -1,0 +1,35 @@
+<!--
+ Copyright 2016 Google Inc.
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">House selling</string>
+    <string name="action_settings">Settings</string>
+    <string name="venue">Seller</string>
+    <string name="welcome">"Buyer"</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_description">Google Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs will
+      step you through the process of building a small application, or adding a new feature to an
+      existing application.</string>
+    <string name="gorilla_info">Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit
+    the forests of central Africa.</string>
+    <string name="codelab_img_description">Image of a codelab computer</string>
+    <string name="i10">https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2Fandes.jpg?alt=media</string>
+    <string name="i20">token=0db9b1cd-f787-4528-899b-135da0b5f189</string>
+    <string name="i11">https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2Fsample_converted.jpg?alt=media</string>
+    <string name="i21">token=3da3066c-d22e-48ce-8d72-db4ab36e3ccf</string>
+    <string name="i12"> https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2FtestRoom1_2kStereo.jpg?alt=media</string>
+    <string name="i22">token=face7221-4132-4a3a-b4cb-0ef034523f43</string>
+</resources>

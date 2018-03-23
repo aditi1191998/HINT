@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "76055964449",
+    "firebase_url": "https://hint-1234.firebaseio.com",
+    "project_id": "hint-1234",
+    "storage_bucket": "hint-1234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76055964449:android:54b16802cbfa903d",
+        "android_client_info": {
+          "package_name": "com.example.suchita.my_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76055964449-luibafiv44ksjmahgm31bhc4tka6i7ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwhzo0qlC7Owgg8psa1iBF_G4p5XzQ7Ts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76055964449:android:38f439b596366118",
+        "android_client_info": {
+          "package_name": "com.google.devrel.vrviewapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76055964449-luibafiv44ksjmahgm31bhc4tka6i7ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwhzo0qlC7Owgg8psa1iBF_G4p5XzQ7Ts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
