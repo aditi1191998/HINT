@@ -33,14 +33,14 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:id="@+id/textView" />
 
-    <ImageView
+    <!--<ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/gorillaView"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:src="@drawable/gorilla" />
-
+-->
         <Button
             android:id="@+id/button1"
             android:layout_width="fill_parent"

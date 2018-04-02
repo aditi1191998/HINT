@@ -53,4 +53,10 @@
         android:layout_weight="1"
         android:layout_marginStart="@dimen/activity_horizontal_margin"
         android:text="@string/welcome_description"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
 </LinearLayout>

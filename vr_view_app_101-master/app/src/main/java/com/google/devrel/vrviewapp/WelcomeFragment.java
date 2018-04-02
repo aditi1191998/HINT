@@ -17,6 +17,7 @@ package com.google.devrel.vrviewapp;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.provider.CalendarContract;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -44,6 +45,8 @@ public class WelcomeFragment extends Fragment {
         //return inflater.inflate(R.layout.welcome_fragment, container,false);
         View v =  inflater.inflate(R.layout.welcome_fragment, container,false);
         panoWidgetView = (VrPanoramaView) v.findViewById(R.id.pano_view);
+
+        //by.onCreateView();
         return v;
     }
 
@@ -73,7 +76,7 @@ public class WelcomeFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
 
-            new CountDownTimer(120000, 30000) {
+            new CountDownTimer(160000, 40000) {
                 int i = 0;
                 String a, b, c;
                 public void onTick(long millisUntilFinished) {
@@ -82,12 +85,12 @@ public class WelcomeFragment extends Fragment {
                         b = getResources().getString(R.string.i20);
                         c = a +"&" +  b;
                     }
-                    else if(i==2) {
+                    else if(i==1) {
                         a = getResources().getString(R.string.i11);
                         b = getResources().getString(R.string.i21);
                         c = a +"&" +  b;
                     }
-                    else if(i==4) {
+                    else if(i==2) {
                         a = getResources().getString(R.string.i12);
                         b = getResources().getString(R.string.i22);
                         c = a +"&" +  b;
@@ -98,6 +101,8 @@ public class WelcomeFragment extends Fragment {
 
                     loadPanoImage(c);
                     i = i + 1;
+                    if(i>=3)
+                        i = 1;
                 }
 
                 public void onFinish() {
@@ -106,11 +111,6 @@ public class WelcomeFragment extends Fragment {
                     //i = i + 1;
                 }
             }.start();
-
-
-
-
-
     }
 
     @Override

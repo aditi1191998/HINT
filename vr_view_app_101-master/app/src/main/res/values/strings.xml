@@ -15,21 +15,21 @@
 -->
 
 <resources>
-    <string name="app_name">House selling</string>
+    <string name="app_name">House Selling and Buying</string>
     <string name="action_settings">Settings</string>
     <string name="venue">Seller</string>
     <string name="welcome">"Buyer"</string>
     <string name="welcome_title">Welcome</string>
-    <string name="welcome_description">Google Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs will
-      step you through the process of building a small application, or adding a new feature to an
-      existing application.</string>
-    <string name="gorilla_info">Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit
-    the forests of central Africa.</string>
+    <string name="welcome_description">The domain of our idea is VR Based House Selling/Buying application which enables the buyer and seller to interact on a common platform.Moreover the seller can havea virtual view of the entire house and can also have some freedom over his movement in the virtual house.</string>
+    <string name="gorilla_info">The input to be given is the number of rooms in the house(whose individual VR views will be included)
+The panoramas of the rooms should be uploaded such that you keep on entering subsequent rooms till an end is met and then
+all the panoramas should be taken in a particular orientation only, starting from the point exactly opposite to the door
+click upload again and again .</string>
     <string name="codelab_img_description">Image of a codelab computer</string>
-    <string name="i10">https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2Fandes.jpg?alt=media</string>
-    <string name="i20">token=0db9b1cd-f787-4528-899b-135da0b5f189</string>
-    <string name="i11">https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2Fsample_converted.jpg?alt=media</string>
-    <string name="i21">token=3da3066c-d22e-48ce-8d72-db4ab36e3ccf</string>
-    <string name="i12"> https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2FtestRoom1_2kStereo.jpg?alt=media</string>
-    <string name="i22">token=face7221-4132-4a3a-b4cb-0ef034523f43</string>
+    <string name="i10">https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2F24?alt=media</string>
+    <string name="i20">token=58bc614e-5362-4371-b424-c72d21c1d5e6</string>
+    <string name="i11">https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2F23-converted.jpg?alt=media</string>
+    <string name="i21">token=2670bad8-049d-423b-bb65-9f80a925d9b2</string>
+    <string name="i12"> https://firebasestorage.googleapis.com/v0/b/hint-1234.appspot.com/o/images%2F24-converted.jpg?alt=media</string>
+    <string name="i22">token=e9032ba6-2d3a-446c-8711-0139bb64bc87</string>
 </resources>
